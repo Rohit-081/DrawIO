@@ -1,0 +1,47 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    color: var(--first-color-dark);
+}
+
+.container {
+    position: relative;
+    margin: 100px auto;
+    background: #ecf0f1;
+    width: 350px;
+    height: 600px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #333;
+    padding: 15px;
+}
+
+.center_container {
+    position: relative;
+    margin: 50px auto;
+    padding: 0 70px;
+}
+
+h2 {
+    color: #00917c;
+    padding: 0 35px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}

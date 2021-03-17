@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML | Challenge Day 06</title>
+    <style>
+    body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(22, 175, 34);
+        }
+        
+        .form-group {
+            display: flex;
+            margin: 0 0 1rem 0;
+        }
+        
+        .container {
+            position: relative;
+            margin: 100px auto;
+            width: 500px;
+            height: 700px;
+            border-radius: 5px;
+            background-color: white;
+            box-shadow: 3px 3px 3px #333;
+            padding: 20px;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form action="index.htm">
+
+            <div class="form-group">
+                <label for="profile">Profile Picture: </label><br>
+                <input type="file" id="profile" name="profile">
+            </div>
+
+            <div class="form-group">
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" placeholder="First Name" name="fname" value="" required autocomplete="on" autofocus>
+            </div>
+
+            <div class="form-group">
+                <label for="mname">Middle Name:</label><br>
+                <input type="text" id="mname" placeholder="Middle Name" name="mname" value="" required autocomplete="on" autofocus>
+            </div>
+
+            <div class="form-group">
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" placeholder="Last Name" name="lname" value="" required autocomplete="on" autofocus>
+            </div>
+
+            <div class="form-group">
+                <label for="dob"> Date of Birth:</label><br>
+                <input type="date" id="dob" placeholder="Date of Birth" name="dob" value="" required autocomplete="on" autofocus>
+            </div>
+
+            <div class="form-group">
+                <label for="nationality">Nationality:</label><br>
+                <input type="radio" id="indian" name="nationality" value="Indian">
+                <label for="indian">Indian</label><br>
+                <input type="radio" id="other" name="nationality" value="other">
+                <label for="other">Other</label>
+            </div>
+
+            <div class="form-group">
+                <label for="qualification">Qualification:</label><br>
+                <input type="text" id="qualification" list="search" placeholder="Qualification" name="qualification" value="" required autocomplete="on" autofocus>
+                <datalist id="search">
+                    <option value="10th Pass">
+                    <option value="12th Pass">
+                    <option value="College Drop Out">
+                    <option value="Graduate">
+                    <option value="Post Graduate">
+                    <option value="Diploma Courses">
+                    <option value="Other">
+                </datalist>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" placeholder="Email" name="email" value="" required autocomplete="on" autofocus>
+            </div>
+
+            <div class="form-group">
+                <label for="psw">Password:</label><br>
+                <input type="password" id="psw" placeholder="Password" name="psw" value="" required autocomplete="on" autofocus>
+            </div>
+
+            <div class="form-group">
+                <label for="confirm-psw">Confirm Password:</label><br>
+                <input type="password" id="confirm-psw" placeholder="Confirm Password" name="confirm-psw" value="" required autocomplete="on" autofocus>
+            </div>
+
+            <div class="form-group">
+                <label for="phone-number">Mobile No.:</label><br>
+                <input type="text" id="phone-number" placeholder="Enter your Mobile No." name="phone-number" value="" required autocomplete="on" autofocus>
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="lgbt" name="gender" value="lgbt">
+                <label for="lgbt">LGBT</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+
+            <div class="form-group">
+                <label for="country">Country:</label><br>
+                <select name="country" placeholder="Select Country" id="country">
+                        <option value="">Select your gender</option>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Germany">Germany</option>
+                        <option value="France">France</option>
+                        <option value="Other">Other</option>
+                    </select>
+            </div>
+
+            <div class="form-group">
+                <label for="state">State:</label><br>
+                <select name="state" placeholder="Select state" id="state">
+                        <option value="">Select your state</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Gujrat">Gujrat</option>
+                        <option value="Maharastra">Maharastra</option>
+                        <option value="Chattisgarh">Chattisgarh</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Other">Other</option>
+                    </select>
+            </div>
+
+            <div class="form-group">
+                <label for="city">City:</label><br>
+                <input type="text" id="city" placeholder="City" name="city" value="" required autocomplete="on" autofocus>
+            </div>
+
+            <div class="form-group">
+                <label for="pincode">Pincode:</label><br>
+                <input type="text" id="pincode" placeholder="pincode" name="pincode" value="" required autocomplete="on" autofocus>
+            </div>
+
+            <div class="form-group">
+                <label for="pincode">Pincode:</label><br>
+                <input type="text" id="pincode" placeholder="pincode" name="pincode" value="" required autocomplete="on" autofocus>
+            </div>
+
+            <div class="form-group">
+                <label for="tnc">Terms & Conditions:</label><br>
+                <input type="checkbox" id="tnc" placeholder="tnc" name="tnc" value="" required autocomplete="on" autofocus>
+            </div>
+
+            <div class="form-group">
+                <button>Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
