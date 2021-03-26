@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Ariel", sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased;
+    background: #fff;
+    color: #000;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 275px auto 350px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.home-page {
+    position: sticky;
+    top: 0;
+}
+
+.search-page {
+    position: sticky;
+    top: 5px;
+}
+
+.home-page-fixed {
+    height: 53px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    z-index: 1;
+    border-bottom: 1px solid #e6ecf0;
+}
+
+.search-page-fixed {
+    height: 53px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+input {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 27px 6px 12px;
+    cursor: pointer;
+    color: #EBEEF0;
+    background-color: #EBEEF0;
+    border: none;
+    border-radius: 25px;
+}
+
+.home-page-logo {
+    height: 22.5px;
+    filter: invert(49%) sepia(89%) saturate(1341%) hue-rotate(175deg) brightness(96%) contrast(97%);
+    padding-right: 20px
+}
+
+.tweet__logo-what {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.tweet__logo-what-next {
+    padding: 20px;
+}
+
+.tweet_logo-next {
+    font-size: 22.5px;
+    color: #94A2AE;
+}
+
+.tweet_logo-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tweet__content {
+    line-height: 20px;
+}
+
+.brand {
+    height: 2rem;
+    filter: invert(49%) sepia(89%) saturate(1341%) hue-rotate(175deg) brightness(96%) contrast(97%);
+}
+
+.sidebar-menu {
+    position: fixed;
+}
+
+.sidebar-menu__item {
+    font-size: 19px;
+    color: #0F141A;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    padding: 20px 20px 20px 0;
+}
+
+.sidebar-menu__item-icon {
+    height: 26px;
+    margin-right: 20px;
+}
+
+.sidebar-menu__item--active {
+    color: #1da0f2;
+}
+
+.sidebar-menu__item--active .sidebar-menu__item-icon {
+    filter: invert(49%) sepia(89%) saturate(1341%) hue-rotate(175deg) brightness(96%) contrast(97%);
+}
+
+.sidebar-menu__item:hover {
+    background: rgba(29, 161, 242, 0.1);
+    color: #1da0f2;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    width: 210px;
+    height: 40px;
+    border-radius: 25px;
+    background: #1DA1F2;
+    color: #fff;
+    font-size: inherit;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+}
+
+.btn-primary-tweet {
+    width: 80px;
+    height: 40px;
+    border-radius: 25px;
+    background: #8ED0F9;
+    color: #fff;
+    font-size: inherit;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.tweet {
+    display: flex;
+    border-bottom: 1px solid #e6ecf0;
+    margin-bottom: 2px;
+    padding: 10px 15px;
+}
+
+.tweet:hover {
+    background: rgba(0, 0, 0, 0.03);
+    cursor: pointer;
+}
+
+.tweet a {
+    color: #1b94e0;
+    text-decoration: none;
+}
+
+.tweet a:hover {
+    text-decoration: underline;
+}
+
+.tweet__author-logo {
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tweet__header {
+    display: flex;
+}
+
+.tweet__author-name {
+    font-size: 15px;
+    font-weight: 700;
+    color: #14171a;
+    margin-right: 5px;
+}
+
+.tweet__author-slug {
+    color: #5b7083;
+    font-size: 15px;
+}
+
+.tweet__publish-time {
+    margin-left: 5px;
+    color: #657786;
+}
+
+.tweet__image {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.trends-for-you {
+    border-radius: 15px;
+    background: #f5f8fa;
+    margin-bottom: 15px;
+}
+
+.trends-for-you__block {
+    border-bottom: 1px solid #e6ecf0;
+    padding: 10px 15px;
+}
+
+.trends-for-you__block:last-child {
+    border-bottom: none;
+}
+
+.trends-for-you__heading {
+    font-size: 19px;
+    font-weight: bold;
+    color: #14171a;
+}
+
+.trends-for-you__meta-information {
+    font-size: 13px;
+    font-weight: 300;
+    color: #657786;
+}
+
+.trends-for-you__trend-name {
+    font-size: 15px;
+    color: #14171a;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
