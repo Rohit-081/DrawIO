@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+}
+
+.left-card {
+    width: 595px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #00796B;
+    font-size: 18px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+}
+
+.right-card {
+    width: 650px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.meet-safe {
+    display: flex;
+    border: 1px solid #c0c0c0;
+    padding: 10px;
+}
+
+.meet-interview {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #c0c0c0;
+    padding: 10px 52px 10px 9px;
+}
+
+.meet-dsm {
+    display: flex;
+    border: 1px solid #c0c0c0;
+    padding: 10px 346px 10px 9px;
+}
+
+.time-para {
+    margin-right: 50px;
+}
+
+.meet-interview-more {
+    margin-left: 108px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.heading-title-description {
+    font-family: 'Google Sans Display', Roboto, Arial, sans-serif;
+    font-size: 2.75rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 3.25rem;
+    padding-bottom: .5em;
+}
+
+.para-text-description {
+    font-family: 'Google Sans', Roboto, Arial, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5rem;
+    color: #5f6368;
+    max-width: 35rem;
+    padding-bottom: 3em;
+}
+
+.new-meet {
+    padding: 14px 27px;
+    border-radius: 4px;
+    margin-right: 20px;
+    color: #fff;
+    background-color: #00796B;
+    font-weight: bold;
+    font-size: inherit;
+}
+
+.new-text {
+    padding: 12px 45px;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+.learn-more {
+    font-size: 18px;
+}
