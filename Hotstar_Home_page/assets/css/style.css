@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #131A27;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 50px;
+    margin-top: 6px;
+    min-height: 66px;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    color: #DADADA;
+}
+
+.line {
+    width: 18px;
+    height: 2px;
+    background: #A1A3A9;
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.icon-wrapper {
+    position: relative;
+    padding: 20px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+.brand-logo {
+    width: 115px;
+    height: 45px;
+    padding-bottom: 5px;
+}
+
+.dropdown-container {
+    display: flex;
+    list-style-type: none;
+}
+
+.dropdown-container-inner {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: none;
+    color: #A1A3A9;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 20px 15px 20px;
+    line-height: normal;
+}
+
+.iconClass.kids {
+    width: 40px;
+    height: 15px;
+    background: url(https://www.hotstar.com/assets/4aa70ede8904e16b7630300c09219c8e.svg) no-repeat;
+}
+
+.navigation-role ul li .new {
+    background: url(/assets/images/New.JPG) center/contain no-repeat;
+    width: 20px;
+    height: 7px;
+    margin: -17px auto 0;
+}
+
+.search-container {
+    position: relative;
+    z-index: 1;
+    margin-left: auto;
+}
+
+.search-container input {
+    position: relative;
+    width: 240px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #A1A3A9;
+    color: #A1A3A9;
+    font-size: 16px;
+    outline: 0;
+    padding: 0 28px 0 0px;
+    border-radius: 0;
+    background: none;
+    opacity: 1;
+}
+
+.search-container .searchIcon {
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    right: 0px;
+    pointer-events: none;
+    height: 15px;
+    width: 16px;
+    opacity: 0.2;
+}
+
+.subscribe-btn {
+    color: #fff;
+    padding: 15px 18px 15px;
+    border-radius: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #1F80E0;
+    border: none;
+    outline: 0;
+    outline-color: transparent;
+    position: relative;
+    outline: none !important;
+    font-size: 12px;
+    margin: 15px 0 15px 20px;
+    padding: 0 12px;
+    letter-spacing: 0.4px;
+    font-weight: 700;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.user-profile .signIn {
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #A1A3A9;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 13px 0;
+    margin-left: 15px;
+    opacity: 1;
+    font-size: 14px;
+}
+
+
+/**** Continue Watching ****/
+
+.watching {
+    display: flex;
+    margin-left: 15px;
+}
+
+h2 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: none;
+    padding: 10px;
+}
+
+.watching img {
+    width: 95%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: width 1s, height 1s;
+}
+
+.watching img:hover {
+    width: 105%;
+    height: 105%;
+    z-index: 2;
+}
+
+.trending {
+    display: flex;
+    margin-left: 15px;
+}
+
+.trending img {
+    width: 95%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.recommending {
+    display: flex;
+    margin-left: 15px;
+}
+
+.recommending img {
+    width: 95%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.popular {
+    display: flex;
+    margin-left: 15px;
+}
+
+.popular img {
+    width: 95%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.continue_watching,
+.latest_trending,
+.recommended_shows,
+.popular_movies {
+    margin: 30px;
+}
+
+.landing-image img {
+    display: block;
+    margin: 0 auto;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    width: 100%;
+    height: 175px;
+    padding: 34px 0 24px;
+    margin: 0 30px;
+    max-width: calc(100vw - 105px);
+}
+
+.footer_moreInfo {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+}
+
+.footer_flex {
+    list-style: none;
+    display: flex;
+}
+
+.fcbk {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 7px;
+}
+
+.playAppleApp {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+}
+
+.copyright {
+    padding-top: 11px;
+    padding-right: 15%;
+    font-size: 12px;
+    line-height: 1.8;
+    color: #DADADA;
+    font-weight: 400;
+}
+
+li {
+    padding: 0 25px 0 0;
+}
+
+li:hover {
+    color: #1F80E0;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 40px;
+}
+
+.icon:hover {
+    color: #1F80E0;
+    cursor: pointer;
+}
+
+.connect {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 1px;
+}
+
+.store-wrapper {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 7px;
+}
+
+.fcbk-icon {
+    padding: 4px 1px 0 0;
+}
+
+.playAppleAppWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.playstore-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #192133;
+    background: #192133;
+    width: 135px;
+    border-radius: 5px;
+}
+
+.playstore-icon:hover {
+    color: #1F80E0;
+}
+
+.apple-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #192133;
+    background: #192133;
+    width: 135px;
+    border-radius: 5px;
+}
+
+.apple-icon:hover {
+    color: #1F80E0;
+}
+
+.google-play {
+    padding: 0 5px 0 0;
+    font-size: 25px;
+}
+
+.apple-store {
+    padding: 0 5px 0 0;
+    font-size: 35px;
+}
+
+.get-on {
+    font-size: 9px;
+    color: #A8B9C9;
+}
+
+.g-play {
+    font-weight: 700;
+    color: #A8B9C9;
+}
