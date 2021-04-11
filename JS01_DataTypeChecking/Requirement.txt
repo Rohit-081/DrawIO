@@ -1,0 +1,15 @@
+// Requirement gathering for Data Type and whether the data is array or not Checking in JavaScript
+
+
+Requirements::
+
+In javascript data types are:
+1. Undefined
+2. String
+3. Number
+4. Boolean
+5. Objects
+
+1. We are checking data types of javascript which are data types of above mentioned types or not.
+2. Also, whether the input data is array or not.
+

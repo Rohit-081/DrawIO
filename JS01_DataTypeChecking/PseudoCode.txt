@@ -1,0 +1,5 @@
+PseudoCode
+
+1. Creating a function with passing parameter as data.
+2. In this function, return the type of data if it is correct or return something error.
+3. Similarly, we are going to check array type data.
