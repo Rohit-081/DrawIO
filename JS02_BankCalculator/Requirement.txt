@@ -1,0 +1,15 @@
+Requirement:
+-Create an account with opening balance amount with 2500INR(min).
+-Person should be able to see upadated amount after credit at max 50K at a time and min at 500INR.
+-Debit can be done with minimum 2500INR remaining and show upadated amount and at max 50K at a time and min at 500INR can be debited.
+-Penalty will be charged on user if balance amount remains less than 2500INR.
+-Person is allowed to use debit facility at max 3 times a day after that he will charged 50INR per txn.
+
+
+1. We have to create bank calculator.
+2.  1. Credit Amount
+	2. Debit Amount
+	3. LOan Amount
+3. Credit Amount is something where amount is added to the current amount.
+4. Debit Amount is something where amount is deducted to the current amount.
+5. Loan Amount is something where amount is owe by user and revert back after some of interest.

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Bank Calculator Assignment</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <h1 class="title">Bank Calculator</h1>
+    <div class="container">
+        <div class="left_container">
+            <div class="container_card">
+                <div class="heading">
+                    <h1>Credit Amount Calculation</h1>
+                </div>
+                <div class="credit_amount">
+                    <div>
+                        <span>Total Amount:</span>
+                        <input type="text" id="totalCAmount" value="2500" readonly>
+                    </div>
+                    <div>
+                        <span>Credit Amount:</span>
+                        <input type="text" id="creditAmount">
+                    </div>
+                    <div>
+                        <button class="btn btn-primary" onclick="calculateCreditAmount();">Calculate</button>
+                    </div>
+                    <div>
+                        <h2>Balance: &nbsp; <span id="totalCBalance"></span></h2>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="middle_container">
+            <div class="container_card">
+                <div class="heading">
+                    <h1>Debit Amount Calculation</h1>
+                </div>
+                <div class="debit_amount">
+                    <div>
+                        <span>Total Amount:</span>
+                        <input type="text" id="totalDAmount" value="2500" readonly>
+                    </div>
+                    <div>
+                        <span>Debit Amount:</span>
+                        <input type="text" id="debitAmount">
+                    </div>
+                    <div>
+                        <button class="btn btn-primary" onclick="calculateDebitAmount();">Calculate</button>
+                    </div>
+                    <div>
+                        <h2>Balance: &nbsp; <span id="totalDBalance"></span></h2>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right_container">
+            <div class="container_card">
+                <div class="heading">
+                    <h1>Loan Amount Calculation</h1>
+                </div>
+                <div class="loan_amount">
+                    <div>
+                        <span>Loan Amount:</span>
+                        <input type="text" id="loanAmount">
+                    </div>
+                    <div>
+                        <span>Interest Rate:</span>
+                        <input type="text" id="interestRate">
+                    </div>
+                    <div>
+                        <span>No. of Months:</span>
+                        <input type="text" id="noOfMonths">
+                    </div>
+                    <div>
+                        <button class="btn btn-primary" onclick="calculateLoanAmount();">Calculate</button>
+                    </div>
+                    <div>
+                        <h2>Payable Amount: &nbsp; <span id="payableAmount"></span></h2>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="assets/js/index.js"></script>
+
+</html>

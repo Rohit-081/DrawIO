@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    position: absolute;
+    margin: 20px 625px;
+    color: #490002;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1535px;
+    height: 700px;
+    background-color: #131A27;
+}
+
+.credit_amount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 97.5%
+}
+
+.debit_amount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 97.5%
+}
+
+.loan_amount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 97.5%
+}
+
+span {
+    display: inline-block;
+    width: 150px;
+    color: #EAEAEC;
+}
+
+div {
+    margin: 10px
+}
+
+.heading {
+    text-align: center;
+}
+
+h1 {
+    color: #383952;
+}
+
+h2 {
+    color: #B9BBBF;
+}
+
+.container_card {
+    border: 1px solid #000;
+    border-radius: 20px;
+    width: 425px;
+    height: 500px;
+    background-color: #490002;
+}
+
+.btn {
+    padding: 5px;
+    border-radius: 5px;
+    background: #1F80E0;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    cursor: pointer;
+}

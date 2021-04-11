@@ -1,0 +1,18 @@
+PseudoCode:
+1. Creating a function which have one input values and return the value of credit amount there is already opening balance is present.
+1.1 Three variables created in the function as totalAmount, totaCredit and totalBalance.
+1.2 The first two variables will be added to produce total amount for the output. 
+1.3 The third variable is used to store the addition method.
+
+
+
+2. Creating second function which have one input text and return the value of debited amount there is already opening balance is present.
+2.1 Three variables created in the function as totalAmount, totalDebit and totalBalance.
+2.2 The first two variables will be used  to produce total amount present after the debited amount. 
+2.3 The third variable is used to store the output after subtraction is happening.
+
+
+3. Creating third function which have three input text values and return the calculated value of amount with interest.
+3.1 Four variables created in the function as loanAmount, interestRate, noOfMonths and total.
+3.2 The total variable will store the value of ((loanAmount) * ((1 + ((interestRate * 0.01) / 12)) ** (noOfMonths / 4))).toFixed(2) this statement.
+
